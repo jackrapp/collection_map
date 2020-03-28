@@ -33,3 +33,9 @@ to add more information about an object - whether they are on loan (L) or a prin
 For the fifth object, and many other objects in the Prints and Drawings department the accession number format is very different.
 
 For now any objects not following standard accession number format will be excluded from this visualization.
+
+### Country Names
+
+Country names are relatively straightforward with some tweaking done to work better with Tableau country coding - although a few objects come from countries that do not exist any more so will be excluded from any visualizations (e.g. Czechoslovakia), as well as those countries with unknown or unclear country designations (e.g. 'India or China'). 
+
+All changed country names are added as a separate column to ensure accuracy and the ability to alter any assumed changes that are historically incorrect.
